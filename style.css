@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#game-container {
+  text-align: center;
+  width: 90%; /* Container anpassen */
+  max-width: 400px; /* Maximale Breite */
+}
+
+canvas {
+  border: 1px solid #000;
+  width: 100%; /* Canvas auf 100% der Breite setzen */
+  height: auto; /* Höhe automatisch anpassen */
+}
+
+button {
+  padding: 15px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Button auf 100% der Breite setzen */
+}
+
+input {
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px 0;
+  width: calc(100% - 30px);
+}
